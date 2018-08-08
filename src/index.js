@@ -9,4 +9,12 @@ function component() {
   return element;
 }
 
+
+export default function matt () {
+
+    console.debug("Inside matt, arguments are", arguments);
+
+}
+
+
 document.body.appendChild(component());
